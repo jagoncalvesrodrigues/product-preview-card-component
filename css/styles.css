@@ -85,6 +85,9 @@ ul{
     color: white;
     padding-left: 8px;
 }
+.button-cart:hover{
+    background-color: #1A4032;
+}
 .sale{
     margin-left: 30px;
 }
