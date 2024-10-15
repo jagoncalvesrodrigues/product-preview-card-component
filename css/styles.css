@@ -3,7 +3,8 @@
 }
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Montserrat", serif;
+    background-color: #F2EAE2;
 }
 img{
     display: block;
@@ -18,4 +19,72 @@ ul{
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+.container{
+    padding: 16px ;
+}
+@media screen and (width>758px){
+    .container{
+        padding: 175px 420px 175px 420px;
+    }
+}
+.card{
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@media screen and (width>758px){
+    .card{
+        display: flex;
+    }
+}
+
+.info{
+    padding: 24px ;
+}
+.title, .price{
+    font-size: 32px;
+}
+.category{
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.price{
+    color: #3D8168;
+    display: flex;
+    align-items: center;
+}
+ .title, .price{
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+}
+.sale{
+    font-family: "Montserrat", serif;
+}
+.sale, .category, .text-description{
+    font-weight: 500;
+}
+.text-description, .sale{
+    line-height: 23px;
+    font-size: 13px;
+}
+.add-cart{
+    font-size: 14px;
+    font-weight: 900;
+}
+.button-cart{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #3D8168;
+    display: flex;
+    justify-content: center;
+    padding: 15px 92px 16px 92px;
+}
+.button-cart p{
+    margin: 0;
+    color: white;
+    padding-left: 8px;
+}
+.sale{
+    margin-left: 30px;
 }
